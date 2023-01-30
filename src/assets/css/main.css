@@ -1,0 +1,47 @@
+
+:root {
+
+    /* Colors: */
+    --black: #001738;
+    --orange: #E5541B;
+    --orange-light: #FF5F1F;
+    --grey-dark: #657387;
+    --grey: #97A0AC;
+    --grey-light: #CCCCCC;
+    --gray-blue: #F4F6F8;
+    --white: #FFFFFF;
+
+
+    /* Font/text values */
+    --font-family-sans: Source Sans Pro;
+    --font-style-normal: normal;
+    --font-weight-normal: normal;
+    --font-weight-bold: bold;
+    --font-size-sm: 12px;
+    --font-size-md: 14px;
+    --font-size-2xl: 24px;
+    --letter-spacing-sm: 15px;
+    --letter-spacing-2xl: 35px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family-sans);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-md);
+    line-height: var(--letter-spacing-sm);
+    color: var(--black);
+    background: var(--gray-blue) 0 0% no-repeat padding-box;
+}
+
+
+h1 {
+    font-family: var(--font-family-sans);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-2xl);
+    line-height: var(--letter-spacing-2xl);
+    color: var(--black);
+}
+
