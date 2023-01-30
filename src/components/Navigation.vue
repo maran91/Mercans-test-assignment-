@@ -46,34 +46,34 @@ export default {
 }
 
 .menu-btn__svg-box {
-  width: 19px;
-  height: 19px;
+  width: 20px;
+  height: 20px;
   background: var(--white);
-  margin: 10px 10px 10px 10px;
-  border: var(--white) solid 1px;
-  border-radius: 10px;
+  -webkit-transition: width .3s;
+  position: absolute;
   box-shadow: 0 2px 4px var(--grey-light);
-  background-position: right bottom;
+  top: 10px;
+  right: 10px;
+  border-radius: 100px;
 }
 
 .menu-btn:hover > .menu-btn__svg-box {
+  width: 23px;
   background: var(--black);
-  border: var(--black) solid 1px;
-  /* TODO: add menu open/close button animation */
 }
 
-.menu-btn:hover > .nav__svg-icon {
-  /* TODO: change color to orange */
-}
-
-.menu-btn__svg-box > img {
-  box-sizing: border-box;
+.nav__svg-icon {
+  position: absolute;
   width: 5px;
   height: 8px;
-  margin: 6px 8px 6px 7px;
-  display: flex;
-  align-items: center;
-  transition: all 1s;
+  top: 6px;
+  right: 7px;
+  -webkit-transition: right .3s;
+}
+
+.menu-btn:hover .nav__svg-icon {
+  right: 15px;
+  filter: invert(60%) sepia(87%) saturate(4578%) hue-rotate(347deg) brightness(101%) contrast(102%);
 }
 
 .menu-btn {
