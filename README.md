@@ -1,4 +1,4 @@
-# Mercans-FE-test-assignment
+# Vue, CSS
 
 ## Project setup
 
